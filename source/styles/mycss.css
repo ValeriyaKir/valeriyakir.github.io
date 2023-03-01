@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body {
+    font-family: Poppins, serif;
+    background: linear-gradient(240deg, #52A2A3 0%, #fff 100%);
+}
+
+p {
+    color:rgb(42, 49, 47);
+}
+
+.card {
+    background-color: #ffffff;
+    color:rgb(42, 49, 47);
+}
+
+.nav-link {
+    color: #6ec7c9
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(124, 132, 132);
+}
+
+.navbar-brand img {
+    width: 40px;
+}
+
+.navbar-toggler {
+    background-color: rgb(124, 132, 132);
+}
+
+.sidebar,
+.btn-outline-primary {
+    color:rgb(42, 49, 47);
+    background-color: #e2f0ef;
+}
+
+.card a {
+    text-decoration: none;
+    color:rgb(42, 49, 47);
+}
+
+.slide-text,
+.footer-text {
+    margin: auto auto;
+}
+
+footer {
+    padding: 1em;
+    background-color: rgb(153, 170, 170);
+}
+
+.call-anim {
+    animation: myAnim 1s ease 0s 1 normal forwards;  
+}
+
+@keyframes myAnim {
+    0%,
+    100% {
+        transform: translateX(0%);
+        transform-origin: 50% 50%;
+    }
+
+    15% {
+        transform: translateX(-30px) rotate(-6deg);
+    }
+
+    30% {
+        transform: translateX(15px) rotate(6deg);
+    }
+
+    45% {
+        transform: translateX(-15px) rotate(-3.6deg);
+    }
+
+    60% {
+        transform: translateX(9px) rotate(2.4deg);
+    }
+
+    75% {
+        transform: translateX(-6px) rotate(-1.2deg);
+    }
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
